@@ -1,0 +1,40 @@
+.nav {
+  background-image: url("../image/week1/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+}
+.border-bottom {
+  border-bottom: 1px solid var(--color-neutral-300);
+}
+.history-list {
+  list-style-type: disc;
+  padding-left: 24px;
+}
+.history-item {
+  padding-left: 8px;
+  margin-left: 8px;
+  border-left: 1px solid var(--color-neutral-900);
+}
+.concept-item {
+  padding-left: 12px;
+  border-left: 3px solid var(--color-neutral-300)
+}
+.story-item .bi {
+  margin-right: 8px;
+}
+.story-link {
+  display: block;
+  color: var(--color-primary-400);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.footer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
