@@ -9,6 +9,11 @@
 .quote {
   text-align: center;
 }
+@media (max-width: 767px) {
+  .quote {
+    text-align: left;
+  }
+}
 .border-bottom {
   border-bottom: 1px solid var(--color-neutral-300);
 }
@@ -34,7 +39,14 @@
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-.footer {
-  padding-top: 64px;
-  padding-bottom: 64px;
+
+@media (max-width: 767px) {
+  .nav {
+    background-image: url('../image/week3/hero-sm.png');
+  }
+  .brand-title {
+    color: var(--color-primary-400);
+    line-height: 1.2;
+    font-weight: 700;
+  }
 }
